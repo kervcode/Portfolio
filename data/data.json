@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": "1",
+      "id": "0",
       "project_name": "Random Quote Generator",
       "description": "In this project, I used vanilla JavaScript to create an app that displays random quote each time a user interact with the Show Another Quote Button. The background color of the page also randomly change for each click on the button. Below are some screenshot of different quotes showing the functionality of the app.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "1",
       "project_name": "Interactive Form",
       "description": "In this project I use jQuery to enhance the user interaction on a registraction form.",
       "technologies": ["HTML", "CSS", "jQuery"],
@@ -24,7 +24,7 @@
       "image_urls": ["/images/form-small.png", "/images/form-large.png"]
     },
     {
-      "id": "3",
+      "id": "2",
       "project_name": "Phrase Hunter",
       "description": "Phrase Hunter",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -33,7 +33,7 @@
       "image_urls": ["/images/phrase-hunter-small.png", ""]
     },
     {
-      "id": "4",
+      "id": "3",
       "project_name": "Random Quote Generator",
       "description": "Random Quote Generator",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -45,14 +45,14 @@
       ]
     },
     {
-      "id": "5",
+      "id": "4",
       "project_name": "List Pagination",
-      "description": "List Pagination",
+      "description": "list Pagination",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
       "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",
       "image_urls": [
-        "/images/listPagination-small.png",
+        "/images/random-quote-small.png",
         "/images/listPagination-large.png"
       ]
     }
