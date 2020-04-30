@@ -16,44 +16,59 @@
     },
     {
       "id": "1",
-      "project_name": "Interactive Form",
-      "description": "In this project I use jQuery to enhance the user interaction on a registraction form.",
-      "technologies": ["HTML", "CSS", "jQuery"],
-      "live_link": "https://kervcode.github.io/Interactive-Form/",
-      "github_link": "https://github.com/kervcode/Interactive-Form/",
-      "image_urls": ["/images/form-small.png", "/images/form-large.png"]
-    },
-    {
-      "id": "2",
-      "project_name": "Phrase Hunter",
-      "description": "Phrase Hunter",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://phrasehunt.netlify.com/",
-      "github_link": "https://github.com/kervcode/phrase-hunter",
-      "image_urls": ["/images/phrase-hunter-small.png", ""]
-    },
-    {
-      "id": "3",
-      "project_name": "Random Quote Generator",
-      "description": "Random Quote Generator",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
-      "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",
-      "image_urls": [
-        "/images/random-quote-small.png",
-        "/images/listPagination-large.png"
-      ]
-    },
-    {
-      "id": "4",
       "project_name": "List Pagination",
       "description": "list Pagination",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
       "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",
       "image_urls": [
-        "/images/random-quote-small.png",
-        "/images/listPagination-large.png"
+        "/images/list-pagination-small.png",
+        "/images/list-pagination-large1.png",
+        "/images/list-pagination-large2.png",
+        "/images/list-pagination-large3.png"
+      ]
+    },
+    {
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "In this project I use jQuery to enhance the user interaction on a registraction form.",
+      "technologies": ["HTML", "CSS", "jQuery"],
+      "live_link": "https://kervcode.github.io/Interactive-Form/",
+      "github_link": "https://github.com/kervcode/Interactive-Form/",
+      "image_urls": [
+        "/images/form-small.png",
+        "/images/form-large1.png",
+        "/images/form-large2.png",
+        "/images/form-large3.png"
+      ]
+    },
+    {
+      "id": "3",
+      "project_name": "Phrase Hunter",
+      "description": "Phrase Hunter",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://phrasehunt.netlify.com/",
+      "github_link": "https://github.com/kervcode/phrase-hunter",
+      "image_urls": [
+        "/images/phrase-hunter-small.png",
+        "/images/phrase-hunter-large1.png",
+        "/images/phrase-hunter-large2.png",
+        "/images/phrase-hunter-large3.png",
+        "/images/phrase-hunter-large4.png"
+      ]
+    },
+    {
+      "id": "4",
+      "project_name": "Public API Requests",
+      "description": "Public API Requests",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://randomusergenerator1.netlify.app/",
+      "github_link": "https://github.com/kervcode/Random-User-Generator",
+      "image_urls": [
+        "/images/random-user-small.png",
+        "/images/random-large1.png",
+        "/images/random-large2.png",
+        "/images/random-large3.png"
       ]
     }
   ]

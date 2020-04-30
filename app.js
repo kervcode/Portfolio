@@ -9,17 +9,21 @@ app.get("/", (req, res) => {
   res.render("index", { data });
 });
 
+app.get("/about", (req, res) => {
+  res.render("about");
+});
+
 app.get("/project/:id", (req, res) => {
   const id = req.params.id;
   const project = data[id];
-  console.log(data[id])
+  console.log(data[id]);
   res.render("project", { project });
 });
 
-app.use((err, req, res, next)=>{
+app.use((err, req, res, next) => {
   // console.log(req.params)
-  next()
-})
+  next();
+});
 
 //static middleware
 app.use("/static", express.static("public"));
