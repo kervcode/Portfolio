@@ -30,3 +30,5 @@ block content
     each img, i in project.image_urls
       if (i > 0)
         img.image(src=`/static/${img}`)
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back

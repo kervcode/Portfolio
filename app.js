@@ -3,6 +3,8 @@ const data = require("./data/data.json").projects;
 
 const app = express();
 app.set("view engine", "pug");
+//static middleware
+app.use("/static", express.static("public"));
 
 app.get("/", (req, res) => {
   // console.log(req)
@@ -19,14 +21,22 @@ app.get("/project/:id", (req, res) => {
   console.log(data[id]);
   res.render("project", { project });
 });
+//Error handling
 
-app.use((err, req, res, next) => {
-  // console.log(req.params)
-  next();
+// 404 error handling
+app.use((req, res, next) => {
+  const error = new Error('Page not Found!');
+  error.status = 404;
+  console.log('Sorry, this page is not available')
+  next(error);
 });
 
-//static middleware
-app.use("/static", express.static("public"));
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error');
+})
+
 
 app.listen(3000, () => {
   console.log("server");
