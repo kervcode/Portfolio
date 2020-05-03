@@ -35,8 +35,7 @@ p {
 }
 
 .button {
-  background-color: #333;
-  background: #508484; /*made change here*/
+  background: #333333; /*made change here*/
 }
 
 .button:hover {
