@@ -13,6 +13,9 @@
   },
   "author": "Kervintz Noel",
   "license": "ISC",
+  "engines": {
+    "node": "12.14.1"
+  },
   "bugs": {
     "url": "https://github.com/kervcode/Portfolio/issues"
   },

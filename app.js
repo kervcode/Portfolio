@@ -25,19 +25,23 @@ app.get("/project/:id", (req, res) => {
 
 // 404 error handling
 app.use((req, res, next) => {
-  const error = new Error('Page not Found!');
+  const error = new Error("Page not Found!");
   error.status = 404;
-  console.log('Sorry, this page is not available')
+  console.log("Sorry, this page is not available");
   next(error);
 });
 
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
-  res.render('error');
-})
+  res.render("error");
+});
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
 
-app.listen(3000, () => {
-  console.log("server");
+app.listen(port, () => {
+  console.log(`Server has started on port ${port}`);
 });
